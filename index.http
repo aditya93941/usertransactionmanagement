@@ -1,0 +1,17 @@
+POST http://localhost:3000/transactions
+Content-Type: application/json
+
+{
+  "type": "expense",
+  "category": "Groceries",
+  "amount": 50,
+  "date": "2024-10-22",
+  "description": "Weekly grocery shopping"
+}
+
+###
+
+GET http://localhost:3000/transactions
+
+###
+GET  http://localhost:3000/transactions/1
